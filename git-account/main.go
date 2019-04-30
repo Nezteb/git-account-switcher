@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/Nezteb/git-account-switcher/cmd"
+import "github.com/Nezteb/git-account-switcher/git-account/cmd"
 
 func main() {
 	cmd.Execute()

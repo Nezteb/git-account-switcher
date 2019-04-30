@@ -4,7 +4,6 @@ The original script I wrote for this is `git-account-switcher.sh`. It is bad; it
 
 # TODO
 
-- Figure out how to make executable named differently than the repo/package.
 - Implement `help`, `add`, `remove`, `switch`.
 - Figure out how to store usernames, key locations. Probably a config file.
 - Figure out how to check current git account. Probably with SSH key parsing (like the script does).

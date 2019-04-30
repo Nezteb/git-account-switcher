@@ -7,9 +7,8 @@ build: clean install
 
 .PHONY: clean
 clean:
-	go clean -i
+	go clean -i ./git-account
 
 .PHONY: install
 install:
-	go build -o git-account
-	go install
+	go install ./git-account
